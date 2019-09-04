@@ -1,0 +1,5 @@
+﻿Respuesta: Siendo un sistema con tantas solicitudes a las base de datos del tipo relacional tendria un motor que soporte grandes cantidades de consultas seria PostgreSQL.
+
+Tambien contar con la aplicacion de un buen proceso de normalización de una base de datos relacional que consiste en aplicar una serie de reglas para evitar a futuro realizar queries, o consultas innecesariamente complejas.
+
+PD: En el caso presentado tendria generador de claves particular para cada seccion porque al contener multiples secciones en linea podria generarse claves duplicadas.

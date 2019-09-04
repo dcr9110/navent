@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pedidos</title>
+</head>
+<body>
+    <!--Formulario de Pedidos-->
+    <form id=FormularioPedidos>
+        <p>NOMBRE: </p>
+        <!--Campo nombre obligatorio y no puede superar los 100 caracteres-->
+        <input name="nombre" id="nombre" type="text" maxlength="100" required>
+        <br>
+        <p>Valor: </p>
+        <!--Campo monto obligatorio, tipo integer-->
+        <input  name="monto" id="monto" type="number" required>
+        <br>
+        <p>descuento</p>
+        <!--Campo descuento no obligatorio, tipo integer-->
+        <input name="desc" id="desc" type="number">
+        <br>
+        <!--Boton de envio-->
+        <input type="submit" name="enviar" value="Crear pedido"> 
+        <input type="reset" value="limpiar">
+        
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
